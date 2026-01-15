@@ -1,17 +1,17 @@
-import { GitBranch } from "lucide-react";
+import { HandCoins } from "lucide-react";
 import { Button } from "../ui/button";
 import { Card, CardAction, CardDescription, CardHeader, CardTitle } from "../ui/card";
 
-export default function ReviewPR(){
+export default function ClaimPR(){
     return (
-        <Card className="w-full bg-sky-300/20">
+        <Card className="w-full bg-green-300/20">
             <CardHeader>
                 <CardTitle>PR Title</CardTitle>
                 <CardDescription>PR Date</CardDescription>
                 <CardAction>
                     <Button variant="outline" className="hover:cursor-pointer">
-                        <GitBranch />
-                        View on GitHub
+                        <HandCoins />
+                        Redeem $5.00
                     </Button>
                 </CardAction>
             </CardHeader>

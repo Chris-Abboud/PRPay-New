@@ -16,17 +16,17 @@ import WalletBar from "./walletBar";
 const items = [
   {
     title: "Inbox",
-    url: "#",
+    url: "/dashboard/review",
     icon: Inbox,
   },
   {
     title: "Rewards",
-    url: "#",
+    url: "/dashboard/claim",
     icon: Coins,
   },
   {
     title: "Claimed",
-    url: "#",
+    url: "/dashboard/completed",
     icon: CircleCheckBig,
   }
 ]
