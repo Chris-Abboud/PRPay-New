@@ -11,7 +11,7 @@ export default async function ClaimPage(){
 
     const params = new URLSearchParams({
         user_id: githubId,
-        status: "requested"
+        status: "claimable"
     });
     const res = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}getPRs?${params}`, {
         cache: "no-store"
